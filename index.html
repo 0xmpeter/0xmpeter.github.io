@@ -27,10 +27,17 @@
       <header class="header">
         <img
           class="avatar"
-          src="https://github.com/0xmpeter.png?size=240"
+          src="https://github.com/0xmpeter.png?size=256"
+          srcset="
+            https://github.com/0xmpeter.png?size=128 128w,
+            https://github.com/0xmpeter.png?size=256 256w,
+            https://github.com/0xmpeter.png?size=384 384w,
+            https://github.com/0xmpeter.png?size=512 512w
+          "
+          sizes="(max-width: 520px) 96px, 128px"
           alt="Portrait of Maxim Peter"
-          width="96"
-          height="96"
+          width="128"
+          height="128"
           loading="lazy"
           decoding="async"
           referrerpolicy="no-referrer"
